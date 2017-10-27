@@ -2,7 +2,6 @@
 .columns,
 .container {
   width: 100%;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 .container {
@@ -190,9 +189,11 @@ section#box .parallax-container {
     section#box .parallax-container img.parallax.one {
       transition: all 2s ease;
       margin: 0 0 0 17%;
-      transform: scale(0.65) translateY(-250px); }
+      -webkit-transform: scale(0.65) translateY(-250px);
+              transform: scale(0.65) translateY(-250px); }
     section#box .parallax-container img.parallax.two {
-      transform: scale(0.7) translateY(0px); }
+      -webkit-transform: scale(0.7) translateY(0px);
+              transform: scale(0.7) translateY(0px); }
 
 section#box .preview-content {
   margin-top: 5%; }
